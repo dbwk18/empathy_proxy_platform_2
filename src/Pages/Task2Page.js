@@ -229,7 +229,7 @@ export const Task2Page = (props) => {
                                                 </div>
                                                 <Likertchoice key={data.Tweet + 5} val={answer[index][4]} id={index * 7 + 5} setAnswer={(val) => setIthAnswer(index, 4, val)} labels={['Strongly Not Representative', 'Not Representative', 'Neutral', 'Representative', 'Strongly Representative']}/>
                                                 <div className='question'>
-                                                    <b>{index + 1}-e*.</b> (Optional) Why do you think it’s well represented or not?
+                                                    <b>{index + 1}-e*.</b> (Optional) Why do you think the above <b>perception, cognition, and action</b> is well represented or not?
                                                 </div>
                                                 <input className='shortform' name={index} id={5} value={answer[index][5]} onChange={inputHandler}></input>
                                             </div>
